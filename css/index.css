@@ -8696,7 +8696,8 @@ h1.page-title + .tag-cloud-list {
   object-fit: cover;
   height: 260px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
+  border-radius: 0;
 }
 .workspage-item .workspage-item-content .workspage-item-content-item .workspage-item-content-item-toolbar {
   display: -webkit-box;
