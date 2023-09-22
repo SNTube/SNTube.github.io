@@ -4306,8 +4306,8 @@ body[data-type='about'] #web_bg {
   -o-transition: 4s ease-in-out;
   -ms-transition: 4s ease-in-out;
   transition: 4s ease-in-out;
-  background-position-x: 0;
-  background-position-y: 36%;
+  background-position-x: 50%;
+  background-position-y: 65%;
 }
 .author-content-item.map:hover .map-title {
   bottom: -100%;

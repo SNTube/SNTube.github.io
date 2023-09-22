@@ -4,7 +4,52 @@
   <url>
     <loc>https://satera.cn/posts/HelloWorld/</loc>
     
-    <lastmod>2023-09-16</lastmod>
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/json/StickerIkun.json</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/json/StickerYukimiku.json</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/json/Sticker23.json</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/json/StickerBoqi.json</loc>
+    
+    <lastmod>2023-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/json/StickerHeo.json</loc>
+    
+    <lastmod>2023-09-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -193,7 +238,7 @@
 
   <url>
     <loc>https://satera.cn/</loc>
-    <lastmod>2023-09-17</lastmod>
+    <lastmod>2023-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,14 +246,14 @@
   
   <url>
     <loc>https://satera.cn/tags/Hexo/</loc>
-    <lastmod>2023-09-17</lastmod>
+    <lastmod>2023-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://satera.cn/tags/Tag-Plugins/</loc>
-    <lastmod>2023-09-17</lastmod>
+    <lastmod>2023-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
