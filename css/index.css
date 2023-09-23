@@ -22792,6 +22792,22 @@ body[data-type="essay"] #web_bg {
   z-index: 2;
 }
 
+#bber .bber-video {
+  position: relative;
+  padding: 30% 50%;
+  margin-bottom: 10px
+}
+#bber .bber-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  border-radius: 6px;
+  border: var(--style-border);
+}
+
 #bber .bber-content .datacont {
   order: 0;
   font-size: 0.8rem;
