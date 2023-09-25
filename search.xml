@@ -8,7 +8,7 @@
       <link href="/posts/HelloWorld/"/>
       <url>/posts/HelloWorld/</url>
       
-        <content type="html"><![CDATA[<p>欢迎，我是小旦</p><p>这是我博客的第一篇文章</p><p>今天用Github Page搭建了一个基于Hexo的静态博客</p><p>比起之前在NAS用Docker搭建Halo，这边看起来好很多，就是还要学一些新知识</p><p>界面美化、页面修改这些，我看看怎么折腾</p><h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><ul><li>添加本地搜索</li><li>添加abbrlink</li><li>添加左下音乐</li><li>添加ArtStation Card</li><li>添加打赏二维码</li><li>添加羊驼</li><li>添加联系链接和头像和网站icon</li><li>添加swiper的技能图标(未修改)</li><li>添加默认头图</li><li>添加留言板(改图并加入少量设计)</li><li>添加音乐馆并修改默认歌单，可切换歌单有了修改方案</li><li>添加相册集(未修改)</li><li>添加小空调并挪到nav</li><li>添加关于本人(未修改)<ul><li>修改了居住地图和hover位置</li><li>修改爱好游戏</li><li>修改音乐偏好</li></ul></li><li>添加即刻说说(闲言闲语，未修改)</li><li>添加我的装备界面(内容未修改)</li><li>添加RSS</li><li>添加百度主动推送、谷歌sitemap、百度sitemap</li><li>添加copyright、socialBar、bdageitem</li><li>弄了shields</li><li>添加了首页图和首页图模糊加载</li><li>添加了评论区背景图、邮箱通知和评论区欢迎词</li><li>音乐馆加入了一份可切换的播放列表</li><li>添加了人潮汹涌并修改默认高度</li><li>添加了分类页</li><li>添加了友链朋友圈，给管理界面重配了图</li><li>给menu排序、改图标</li><li>用我的装备改了一个作品页界面</li><li>换了钉钉进步体字体，压缩为woff2</li><li>友链界面用了青桔的条件勾选显示评论区</li><li>友链界面用了小植写的一个声明</li></ul><ul><li>魔改了张洪Heo的Twikoo评论回复邮件模板</li><li>更换了静态光标</li><li>给即刻加上了B站嵌入和HTML嵌入(借鉴亦封的icat版，魔改了鱼的即刻)</li><li>加了禁用F12开关</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>欢迎，我是小旦</p><p>这是我博客的第一篇文章</p><p>今天用Github Page搭建了一个基于Hexo的静态博客</p><p>比起之前在NAS用Docker搭建Halo，这边看起来好很多，就是还要学一些新知识</p><p>界面美化、页面修改这些，我看看怎么折腾</p><h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><ul><li>添加本地搜索</li><li>添加abbrlink</li><li>添加左下音乐</li><li>添加ArtStation Card</li><li>添加打赏二维码</li><li>添加羊驼</li><li>添加联系链接和头像和网站icon</li><li>添加swiper的技能图标(未修改)</li><li>添加默认头图</li><li>添加留言板(改图并加入少量设计)</li><li>添加音乐馆并修改默认歌单，可切换歌单有了修改方案</li><li>添加相册集(未修改)</li><li>添加小空调并挪到nav</li><li>添加关于本人(未修改)<ul><li>修改了居住地图和hover位置</li><li>修改爱好游戏</li><li>修改音乐偏好</li></ul></li><li>添加即刻说说(闲言闲语，未修改)</li><li>添加我的装备界面(内容未修改)</li><li>添加RSS</li><li>添加百度主动推送、谷歌sitemap、百度sitemap</li><li>添加copyright、socialBar、bdageitem</li><li>弄了shields</li><li>添加了首页图和首页图模糊加载</li><li>添加了评论区背景图、邮箱通知和评论区欢迎词</li><li>音乐馆加入了一份可切换的播放列表</li><li>添加了人潮汹涌并修改默认高度</li><li>添加了分类页</li><li>添加了友链朋友圈，给管理界面重配了图</li><li>给menu排序、改图标</li><li>用我的装备改了一个作品页界面</li><li>换了钉钉进步体字体，压缩为woff2</li><li>友链界面用了青桔的条件勾选显示评论区</li><li>友链界面用了小植写的一个声明</li></ul><ul><li>魔改了张洪Heo的Twikoo评论回复邮件模板</li><li>更换了静态光标</li><li>给即刻加上了B站嵌入和HTML嵌入(借鉴亦封的icat版，魔改了鱼的即刻)</li><li>加了禁用F12开关，并加入F12跳转Particle Wave页(Codepen找点项目改的)</li></ul>]]></content>
       
       
       
@@ -53,10 +53,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/imgloaded.css"/>
-      <url>/css/imgloaded.css</url>
+      <link href="/css/font-family.css"/>
+      <url>/css/font-family.css</url>
       
-        <content type="html"><![CDATA[/* 首页头图加载 */.pl-container {    width: 100%;    height: 100%;    position: relative;    overflow: hidden;    will-change: transform; /* 添加性能优化 */    animation: blur-to-clear 2s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;  }  .pl-img {    width: 100%;    height: 100%;    position: absolute;    background-position: center;    background-size: cover;    background-repeat: no-repeat;    opacity: 0;    transition: opacity 1s;  }    @keyframes blur-to-clear {    0% {      filter: blur(50px);      opacity: 1;    }    100% {      filter: blur(0);      opacity: 1;    }  }    @keyframes scale {    0% {      transform: scale(1.5) translateZ(0);      opacity: 0;    }    to {      transform: scale(1) translateZ(0);      opacity: 1;    }  }    .pl-visible {    opacity: 1;  }    .pl-blur {    /* 小图锯齿多，增加高斯模糊 */    filter: blur(50px);  }]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('/fonts/DingTalk JinBuTi.woff2');    font-display: swap; }]]></content>
       
     </entry>
     
@@ -64,10 +64,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/font-family.css"/>
-      <url>/css/font-family.css</url>
+      <link href="/css/imgloaded.css"/>
+      <url>/css/imgloaded.css</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('/fonts/DingTalk JinBuTi.woff2');    font-display: swap; }]]></content>
+        <content type="html"><![CDATA[/* 首页头图加载 */.pl-container {    width: 100%;    height: 100%;    position: relative;    overflow: hidden;    will-change: transform; /* 添加性能优化 */    animation: blur-to-clear 2s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;  }  .pl-img {    width: 100%;    height: 100%;    position: absolute;    background-position: center;    background-size: cover;    background-repeat: no-repeat;    opacity: 0;    transition: opacity 1s;  }    @keyframes blur-to-clear {    0% {      filter: blur(50px);      opacity: 1;    }    100% {      filter: blur(0);      opacity: 1;    }  }    @keyframes scale {    0% {      transform: scale(1.5) translateZ(0);      opacity: 0;    }    to {      transform: scale(1) translateZ(0);      opacity: 1;    }  }    .pl-visible {    opacity: 1;  }    .pl-blur {    /* 小图锯齿多，增加高斯模糊 */    filter: blur(50px);  }]]></content>
       
     </entry>
     
@@ -100,7 +100,7 @@
       <link href="/js/f12.js"/>
       <url>/js/f12.js</url>
       
-        <content type="html"><![CDATA[window.addEventListener("keydown", function(e) {    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.keyCode === 73)) {        e.preventDefault();        window.location = "/page/stardust/";    }});]]></content>
+        <content type="html"><![CDATA[window.addEventListener("keydown", function(e) {    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.keyCode === 73)) {        e.preventDefault();        window.location = "/page/particlewave/";    }});]]></content>
       
     </entry>
     
