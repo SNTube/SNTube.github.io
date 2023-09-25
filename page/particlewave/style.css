@@ -23,6 +23,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   color: #212121;
 }
 
+/* 新增这个页面用的光标 */
 body {
   cursor: url("/img/normal.cur"), default;
   margin: 0;

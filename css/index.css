@@ -5130,7 +5130,7 @@ body[data-type='about'] #web_bg {
     content: 'Your browser does not support the animation';
   }
 }
-.hello-about {
+.particlewave-about {
   margin: 20px auto;
   border-radius: 24px;
   background: var(--anzhiyu-card-bg);
@@ -5155,6 +5155,20 @@ body[data-type='about'] #web_bg {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+}
+.hello-about {
+  margin: 20px auto;
+  border-radius: 24px;
+  background: var(--anzhiyu-card-bg);
+  border: var(--style-border-always);
+  -webkit-box-shadow: var(--anzhiyu-shadow-border);
+  box-shadow: var(--anzhiyu-shadow-border);
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .shapes {
   position: relative;
