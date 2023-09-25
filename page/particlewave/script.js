@@ -264,3 +264,16 @@ var ParticleWave = function ()
 
 var pw = new ParticleWave();
 pw.run();
+
+  // 新增一个F12跳回网站根路径
+window.addEventListener("keydown", function(e) {
+  // 当前页面地址
+  let path = window.location.pathname;
+  if (path === '/page/particlewave/') {
+    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.keyCode === 73)) {
+      e.preventDefault();  
+      // 跳转到网站首页
+      window.location.href = '/'; 
+    }
+  }
+});
