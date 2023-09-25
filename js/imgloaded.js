@@ -34,21 +34,21 @@ class ProgressiveLoad {
       this.smallImg.src = this.smallSrc;
       this.largeImg.src = this.largeSrc;
     }
-  
-    /**
-     * @description 大图加载完成
-     */
-    _onLargeLoaded() {
-      this.largeStage.classList.add('pl-visible');
-      this.largeStage.style.backgroundImage = `url('${this.largeSrc}')`;
-    }
-  
+    
     /**
      * @description 小图加载完成
      */
     _onSmallLoaded() {
       this.smallStage.classList.add('pl-visible');
       this.smallStage.style.backgroundImage = `url('${this.smallSrc}')`;
+    }
+
+    /**
+     * @description 大图加载完成
+     */
+    _onLargeLoaded() {
+      this.largeStage.classList.add('pl-visible');
+      this.largeStage.style.backgroundImage = `url('${this.largeSrc}')`;
     }
   }
   

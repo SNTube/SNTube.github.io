@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://satera.cn/MySticker.json</loc>
+    <loc>https://satera.cn/posts/HelloWorld/</loc>
     
     <lastmod>2023-09-25</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://satera.cn/posts/HelloWorld/</loc>
+    <loc>https://satera.cn/MySticker.json</loc>
     
     <lastmod>2023-09-25</lastmod>
     
