@@ -2,7 +2,9 @@
 /**
  * @description 实现medium的渐进加载背景的效果
  */
-class ProgressiveLoad {
+if (!window.ProgressiveLoad) {
+  // 定义ProgressiveLoad类
+  class ProgressiveLoad {
     constructor(smallSrc, largeSrc) {
       this.smallSrc = smallSrc;
       this.largeSrc = largeSrc;
@@ -96,3 +98,5 @@ class ProgressiveLoad {
     onPJAXComplete(config);
   });
   
+}
+

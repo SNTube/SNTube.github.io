@@ -146,7 +146,7 @@ var vegetablesAndFruits = [
 // 已随机的歌曲
 var selectRandomSong = [];
 // 音乐默认声音大小
-var musicVolume = 0.5;
+var musicVolume = 0.8;
 // 是否切换了音乐列表
 var changeMusicListFlag = false;
 // 当前默认播放列表
