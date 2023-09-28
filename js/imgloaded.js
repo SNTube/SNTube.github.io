@@ -10,6 +10,9 @@ if (!window.ProgressiveLoad) {
       this.smallSrc = smallSrc;
       this.largeSrc = largeSrc;
       this.initTpl();
+      this.container.addEventListener('animationend', () => {
+        this.smallStage.remove(); 
+      }, {once: true});
     }
   
     /**
@@ -18,6 +21,13 @@ if (!window.ProgressiveLoad) {
     initTpl() {
       this.container = document.createElement('div');
       this.smallStage = document.createElement('div');
+        // 添加动画结束事件监听小图并移除该元素
+      this.smallStage.addEventListener('animationend', () => {
+        // 如果有父元素
+        this.smallStage.parentNode.removeChild(this.smallStage);
+        // 或者没有父元素
+        this.smallStage.remove();
+      });
       this.largeStage = document.createElement('div');
       this.smallImg = new Image();
       this.largeImg = new Image();
