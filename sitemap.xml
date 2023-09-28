@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://satera.cn/posts/6a8fb549/</loc>
+    
+    <lastmod>2023-09-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://satera.cn/posts/af320382/</loc>
     
-    <lastmod>2023-09-26</lastmod>
+    <lastmod>2023-09-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,6 +227,13 @@
 
   
   <url>
+    <loc>https://satera.cn/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2023-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://satera.cn/tags/Hexo/</loc>
     <lastmod>2023-09-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,6 +242,13 @@
   
   <url>
     <loc>https://satera.cn/tags/Twikoo/</loc>
+    <lastmod>2023-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/tags/anzhiyu/</loc>
     <lastmod>2023-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
