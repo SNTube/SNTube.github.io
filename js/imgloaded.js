@@ -10,11 +10,6 @@ if (!window.ProgressiveLoad) {
       this.smallSrc = smallSrc;
       this.largeSrc = largeSrc;
       this.initTpl();
-      //监听动画事件结束
-      this.container.addEventListener('animationend', () => {
-        //隐藏小图
-        this.smallStage.style.display = 'none'; 
-      }, {once: true});
     }
   
     /**
@@ -83,6 +78,11 @@ if (!window.ProgressiveLoad) {
     };
 
   function initProgressiveLoad(config) {
+    // 每次加载前先清除已有的元素
+    const container = document.querySelector('.pl-container'); 
+    if (container) {
+      container.remove(); 
+    }
     const target = document.getElementById('page-header');
     if (target && target.classList.contains('full_page')) {
       executeLoad(config, target);
