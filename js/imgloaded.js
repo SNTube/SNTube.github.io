@@ -1,7 +1,9 @@
-// 小旦版首页头图加载优化
 /**
  * @description 实现medium的渐进加载背景的效果
  */
+// 删除重复定义
+delete window.ProgressiveLoad;
+
 // 定义ProgressiveLoad类
 class ProgressiveLoad {
   constructor(smallSrc, largeSrc) {
@@ -81,11 +83,6 @@ const config = {
   };
 
 function initProgressiveLoad(config) {
-  // 每次加载前先清除已有的元素
-  const container = document.querySelector('.pl-container'); 
-  if (container) {
-    container.remove(); 
-  }
   const target = document.getElementById('page-header');
   if (target && target.classList.contains('full_page')) {
     executeLoad(config, target);

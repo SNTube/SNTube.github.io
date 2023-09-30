@@ -68,7 +68,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-10-01 01:55:27',
+  postUpdate: '2023-10-01 02:58:44',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -196,13 +196,17 @@
 
 
 9月28日：发现跨页返回首页时，会重复创建ProgressiveLoad并调用
-新增每次加载前先清除已有的元素
+新增每次加载前先清除已有的.pl-container元素(9月30日改动后废弃)
 一图流有人想抄
 
 
 9月29日：首页图下方的有个奇怪的边界的情况，其中一个原因是模糊的小图藏在后面
 新增监听动画移除小图元素
 另一个原因是夜间阅读模式，给出解决方案
+
+
+9月30日：Safari浏览器缓存机制导致之前ProgressiveLoad类前加判断时无法显示首页图
+判断ProgressiveLoad改成清除ProgressiveLoad再定义
 
 
 
@@ -214,17 +218,7 @@
 
 
 
-原理是先加载小图文件并进行高斯模糊处理，在大图加载完成后再对大图进行加载。
-
-操作步骤0、效果二选一
-选择仅渐变式加载或渐变式一图流其中一种效果
-仅渐变式加载是Kouseki的教程版
-渐变式一图流是Kouseki的首页版
-
-
-
-1、新建文件
-新建文件source/js/imgl ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/posts/af320382/')"><div class="post_cover left"><a href="/posts/af320382/" title="twikoo邮箱通知模板分享" style="display: flex;height: 100%;"><img class="post_bg" src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="twikoo邮箱通知模板分享" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">分享</div><a class="unvisited-post" href="/posts/af320382/" title="twikoo邮箱通知模板分享">未读</a></div><a class="article-title" href="/posts/af320382/" title="twikoo邮箱通知模板分享">twikoo邮箱通知模板分享</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-26T09:19:00.000Z" title="发表于 2023-09-26 17:19:00">2023-09-26</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%BE%8E%E5%8C%96/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>美化</span></a><a class="article-meta__tags" href="/tags/Hexo/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Hexo</span></a><a class="article-meta__tags" href="/tags/Twikoo/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Twikoo</span></a></span></div><div class="content">先上效果 MAIL_TEMPLATE预览效果 
+原理是先加载小图文件并进行高斯模糊处理， ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/posts/af320382/')"><div class="post_cover left"><a href="/posts/af320382/" title="twikoo邮箱通知模板分享" style="display: flex;height: 100%;"><img class="post_bg" src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="twikoo邮箱通知模板分享" style="pointer-events: none"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">分享</div><a class="unvisited-post" href="/posts/af320382/" title="twikoo邮箱通知模板分享">未读</a></div><a class="article-title" href="/posts/af320382/" title="twikoo邮箱通知模板分享">twikoo邮箱通知模板分享</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-26T09:19:00.000Z" title="发表于 2023-09-26 17:19:00">2023-09-26</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%BE%8E%E5%8C%96/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>美化</span></a><a class="article-meta__tags" href="/tags/Hexo/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Hexo</span></a><a class="article-meta__tags" href="/tags/Twikoo/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Twikoo</span></a></span></div><div class="content">先上效果 MAIL_TEMPLATE预览效果 
               
               
               
