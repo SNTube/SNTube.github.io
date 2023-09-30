@@ -5185,11 +5185,6 @@ body[data-type='about'] #web_bg {
   -webkit-justify-content: center;
   justify-content: center;
 }
-@media (max-width: 767px) {
-  .particlewave-about {
-    display: none;
-  }
-}
 .hello-about {
   margin: 20px auto;
   border-radius: 24px;
