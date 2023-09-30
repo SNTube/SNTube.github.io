@@ -10,8 +10,10 @@ if (!window.ProgressiveLoad) {
       this.smallSrc = smallSrc;
       this.largeSrc = largeSrc;
       this.initTpl();
+      //监听动画事件结束
       this.container.addEventListener('animationend', () => {
-        this.smallStage.remove(); 
+        //隐藏小图
+        this.smallStage.style.display = 'none'; 
       }, {once: true});
     }
   
