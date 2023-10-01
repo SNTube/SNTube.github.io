@@ -81,11 +81,6 @@
     };
 
   function initProgressiveLoad(config) {
-    // 每次加载前先清除已有的元素
-    const container = document.querySelector('.pl-container');
-    if (container) {
-      container.remove();
-    }
     const target = document.getElementById('page-header');
     if (target && target.classList.contains('full_page')) {
       executeLoad(config, target);
