@@ -1,8 +1,7 @@
 /**
  * @description 实现medium的渐进加载背景的效果
  */
-delete window.ProgressiveLoad; 
-if (!window.ProgressiveLoad) {
+(function() {
   // 定义ProgressiveLoad类
   class ProgressiveLoad {
     constructor(smallSrc, largeSrc) {
@@ -108,4 +107,4 @@ if (!window.ProgressiveLoad) {
     onPJAXComplete(config);
   });
 
-}
+})();
