@@ -8,9 +8,9 @@
       this.smallSrc = smallSrc;
       this.largeSrc = largeSrc;
       this.initTpl();
-      //监听动画事件结束
+      // 监听动画事件结束
       this.container.addEventListener('animationend', () => {
-        //隐藏小图
+        // 隐藏小图
         this.smallStage.style.display = 'none'; 
       }, {once: true});
     }
@@ -22,13 +22,16 @@
       this.container = document.createElement('div');
       this.smallStage = document.createElement('div');
       this.largeStage = document.createElement('div');
+      this.video = document.createElement('div'); // 斜条纹阴影样式部分1
       this.smallImg = new Image();
       this.largeImg = new Image();
       this.container.className = 'pl-container';
       this.smallStage.className = 'pl-img pl-blur';
       this.largeStage.className = 'pl-img';
+      this.video.className = 'pl-video'; // 斜条纹阴影样式部分2
       this.container.appendChild(this.smallStage);
       this.container.appendChild(this.largeStage);
+      this.container.appendChild(this.video); // 斜条纹阴影样式部分3
       this.smallImg.onload = this._onSmallLoaded.bind(this);
       this.largeImg.onload = this._onLargeLoaded.bind(this);
     }

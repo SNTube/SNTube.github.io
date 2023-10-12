@@ -19261,7 +19261,7 @@ p.p.gray {
   --blockquote-bg: #2c2c2c;
   --reward-pop: #2c2c2c;
   --toc-link-color: rgba(255,255,255,0.6);
-  --scrollbar-color: #5a6ff1;
+  --scrollbar-color: repeating-linear-gradient(45deg, #f771e8, #f7c6f2 5px, #21809c 5px, #21809c 10px, #f7c6f2 10px, #f771e8 15px);
   --timeline-bg: #1f1f1f;
 }
 [data-theme='dark'] #web_bg:before,
