@@ -16403,7 +16403,7 @@ li.card-category-list-item {
   transform: rotate(360deg);
 }
 #vcomment textarea {
-  background: url("/img/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://bu.dusays.com/2023/09/10/64fd73cceaa4a.png") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
