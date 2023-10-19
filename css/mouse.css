@@ -2,8 +2,38 @@
 body {
     cursor: url("/img/normal.cur"), default;
   }
+  #scroll-down,
+  .bber-logo,
+  .swiper-slide,
+  .recent-post-item,
+  .recent-post-info,
+  .banner-button,
+  .back-home-button,
+  .tk-submit-action-icon,
+  .tk-icon,
+  .tk-tab,
+  .tk-admin-comment-filter-type,
+  .card__content,
+  .aplayer-pic,
   a,
+  i,
   img,
+  summary,
+  li,
+  select,
   button {
     cursor: url("/img/click.cur"), default !important;
   }
+  #card-wechat,
+  .aplayer-music,
+  .OwO-body,
+  .card-info-social-icons,
+  .widget,
+  .nav-button {
+    cursor: url("/img/normal.cur"), default !important;
+  }
+
+/* 隐藏滚动条样式 */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width, 0px);
+}

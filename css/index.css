@@ -10774,6 +10774,7 @@ body[data-type="workspage"] #page .page-title {
   margin: 0;
   color: var(--white);
   font-size: 1.85em;
+  text-shadow: 0 0 10px #af6caf, 0 0 20px #af6caf, 0 0 30px #af6caf, 0 0 40px #af6caf, 0 0 70px #af6caf, 0 0 80px #af6caf, 0 0 100px #af6caf, 0 0 150px #af6caf;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
@@ -10783,6 +10784,7 @@ body[data-type="workspage"] #page .page-title {
 #page-header #site-subtitle {
   color: var(--light-grey);
   font-size: 1.15em;
+  text-shadow: 0 0 10px #af6caf, 0 0 20px #af6caf, 0 0 30px #af6caf, 0 0 40px #af6caf, 0 0 70px #af6caf;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
@@ -19429,17 +19431,21 @@ p.p.gray {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%);
   content: '';
   z-index: 2;
   pointer-events: none;
 }
 [data-theme='dark'] #footer {
-  background-color: var(--anzhiyu-card-bg);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), #2f6d80, #06131a);
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0), #2f6d80, #06131a);
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0), #2f6d80, #06131a);
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0), #2f6d80, #06131a);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), #2f6d80, #06131a);
 }
 [data-theme='dark'] #article-container pre > code {
   background: #171717;
@@ -23356,7 +23362,6 @@ i.bber-logo {
   line-height: 22px;
   margin-right: 1rem;
   transition: all 0.3s ease 0s;
-  cursor: pointer !important;
 }
 i.bber-logo:hover,
 i.bber-gotobb:hover {

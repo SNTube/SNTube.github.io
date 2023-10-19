@@ -75,13 +75,38 @@
     loader.progressiveLoad();
   };
 
-  const config = {
-    smallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 大图链接 最终显示的图片
-    mobileSmallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 手机端大图链接 最终显示的图片
-    enableRoutes: ['/'],
+  const ldconfig = {
+    light: {
+      smallSrc: '', // 小图链接 尽可能配置小于100k的图片
+      largeSrc: 'https://bu.dusays.com/2023/09/20/650ab6c396874.png', // 大图链接 最终显示的图片
+      mobileSmallSrc: '', // 手机端小图链接 尽可能配置小于100k的图片
+      mobileLargeSrc: 'https://bu.dusays.com/2023/09/20/650ab6c396874.png', // 手机端大图链接 最终显示的图片
+      enableRoutes: ['/'],
+      },
+    dark: {
+      smallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg',  // 深色模式小图
+      largeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 深色模式大图
+      mobileSmallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg', // 手机端深色模式小图
+      mobileLargeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 手机端深色模式大图
+      enableRoutes: ['/'],
+      },
     };
+  const theme = document.documentElement.getAttribute("data-theme") || 'light';
+  const config = ldconfig[theme];
+
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if (mutation.attributeName === "data-theme" && location.pathname === '/') {
+        window.location.reload();
+        window.location.href = "/";
+      }
+    });
+  });
+  
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"]  
+  });
 
   function initProgressiveLoad(config) {
     // 每次加载前先清除已有的元素
