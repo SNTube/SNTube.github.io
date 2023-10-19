@@ -19555,7 +19555,8 @@ p.p.gray {
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background: var(--exit-btn-bg);
+  background-image: url("/img/xmark.png");
+  background-size: contain;
   color: var(--exit-btn-color);
   font-size: 16px;
   -webkit-transition: background 0.3s;
@@ -23184,10 +23185,6 @@ body[data-type="essay"] #web_bg {
   margin-top: 10px;
 }
 
-.bber-reply {
-  cursor: pointer !important;
-}
-
 .bber-reply:hover {
   color: var(--anzhiyu-main);
   max-height: 35px;
@@ -24177,6 +24174,10 @@ a.categoryButton.green {
   background: linear-gradient(to right, #18e7ae, #1eebeb);
   background-size: 200%;
 }
+a.categoryButton.yellow {
+  background: linear-gradient(to right, #ffda22, #f36161);
+  background-size: 200%;
+}
 
 .categoryItem:hover {
   width: 50%;
@@ -24221,7 +24222,10 @@ a.categoryButton:after {
   background: linear-gradient(to right, #099e74, #0ea4a4);
   background-size: 200%;
 }
-
+[data-theme="dark"] a.categoryButton.yellow {
+  background: linear-gradient(to right, #ffda22, #f36161);
+  background-size: 200%;
+}
 #topPostGroup .top-group-list-item {
   display: flex;
   width: calc(100% / 4 - 5px);
