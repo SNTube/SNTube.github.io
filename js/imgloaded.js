@@ -97,7 +97,6 @@
   const observer = new MutationObserver(mutations => {
     mutations.forEach(mutation => {
       if (mutation.attributeName === "data-theme" && location.pathname === '/') {
-        window.location.reload();
         window.location.href = "/";
       }
     });
