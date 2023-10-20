@@ -105,7 +105,7 @@
       const config = ldconfig[currentTheme];
       // 重新加载
       initProgressiveLoad(config);
-      
+
       document.addEventListener("DOMContentLoaded", function() {
         initProgressiveLoad(config);
       });
@@ -150,7 +150,5 @@
       initProgressiveLoad(config);
     }
   }
-
-
 
 })();
