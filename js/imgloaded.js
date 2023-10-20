@@ -91,13 +91,29 @@
       enableRoutes: ['/'],
       },
     };
-  const theme = document.documentElement.getAttribute("data-theme") || 'light';
-  const config = ldconfig[theme];
+
+    // 获取当前主题
+    const getCurrentTheme = () => {
+      return document.documentElement.getAttribute('data-theme'); 
+    }
+    // 主题变化回调 
+    const onThemeChange = () => {
+      // 获取最新主题
+      const currentTheme = getCurrentTheme();
+      // 获取对应的配置
+      const config = ldconfig[currentTheme];
+      // 重新加载
+      initProgressiveLoad(config);
+    }
+    // 初始化
+    let initTheme = getCurrentTheme();
+    let initConfig = ldconfig[initTheme];
+    initProgressiveLoad(initConfig);
 
   const observer = new MutationObserver(mutations => {
     mutations.forEach(mutation => {
       if (mutation.attributeName === "data-theme" && location.pathname === '/') {
-        window.location.replace("/");
+        onThemeChange();
       }
     });
   });
