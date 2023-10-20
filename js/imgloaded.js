@@ -143,11 +143,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    initProgressiveLoad(config);
+    initProgressiveLoad(ldconfig);
   });
 
   document.addEventListener("pjax:complete", function() {
-    onPJAXComplete(config);
+    onPJAXComplete(ldconfig);
   });
 
 })();
