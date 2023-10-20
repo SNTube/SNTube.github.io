@@ -66,3 +66,31 @@ body {
   color: #ffffff !important;
   text-shadow: 0 0 3px #0000005b, 0 2px 3px #0000005b, 0 -2px 3px #0000005b;
 }
+
+/* 网站霓虹标题 */
+#page-header #site-subtitle {
+  text-shadow: 0 0 10px #AF6CAF, 0 0 20px #AF6CAF, 0 0 30px #AF6CAF, 0 0 40px #AF6CAF, 0 0 70px #AF6CAF, 0 0 80px #AF6CAF, 0 0 100px #AF6CAF, 0 0 150px #AF6CAF
+}
+
+#page-header #site-title {
+  text-shadow: 0 0 10px #AF6CAF, 0 0 20px #AF6CAF, 0 0 30px #AF6CAF, 0 0 40px #AF6CAF, 0 0 70px #AF6CAF
+}
+
+/* 阅读模式退出图标 */
+.read-mode .exit-readmode {
+  background-image: url('/img/xmark.png') !important;
+  background-size: contain !important;
+  background: transparent;
+}
+
+/* 分组图标颜色 */
+a.categoryButton.yellow {
+  background: linear-gradient(to right, #ffda22, #f36161);
+  background-size: 200%;
+}
+
+[data-theme="dark"] a.categoryButton.yellow {
+  background: linear-gradient(to right, #ffda22, #f36161);
+  background-size: 200%;
+}
+

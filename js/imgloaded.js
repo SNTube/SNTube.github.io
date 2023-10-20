@@ -91,6 +91,7 @@
       enableRoutes: ['/'],
       },
     };
+    
 
     // 获取当前主题
     const getCurrentTheme = () => {
@@ -104,6 +105,14 @@
       const config = ldconfig[currentTheme];
       // 重新加载
       initProgressiveLoad(config);
+      
+      document.addEventListener("DOMContentLoaded", function() {
+        initProgressiveLoad(config);
+      });
+    
+      document.addEventListener("pjax:complete", function() {
+        onPJAXComplete(config);
+      });
     }
     // 初始化
     let initTheme = getCurrentTheme();
@@ -142,12 +151,6 @@
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
-    initProgressiveLoad(ldconfig);
-  });
 
-  document.addEventListener("pjax:complete", function() {
-    onPJAXComplete(ldconfig);
-  });
 
 })();

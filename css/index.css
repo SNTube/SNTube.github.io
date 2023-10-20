@@ -10774,7 +10774,6 @@ body[data-type="workspage"] #page .page-title {
   margin: 0;
   color: var(--white);
   font-size: 1.85em;
-  text-shadow: 0 0 10px #af6caf, 0 0 20px #af6caf, 0 0 30px #af6caf, 0 0 40px #af6caf, 0 0 70px #af6caf, 0 0 80px #af6caf, 0 0 100px #af6caf, 0 0 150px #af6caf;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
@@ -10784,7 +10783,6 @@ body[data-type="workspage"] #page .page-title {
 #page-header #site-subtitle {
   color: var(--light-grey);
   font-size: 1.15em;
-  text-shadow: 0 0 10px #af6caf, 0 0 20px #af6caf, 0 0 30px #af6caf, 0 0 40px #af6caf, 0 0 70px #af6caf;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
@@ -19555,8 +19553,7 @@ p.p.gray {
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background-image: url("/img/xmark.png");
-  background-size: contain;
+  background: var(--exit-btn-bg);
   color: var(--exit-btn-color);
   font-size: 16px;
   -webkit-transition: background 0.3s;
@@ -24174,10 +24171,6 @@ a.categoryButton.green {
   background: linear-gradient(to right, #18e7ae, #1eebeb);
   background-size: 200%;
 }
-a.categoryButton.yellow {
-  background: linear-gradient(to right, #ffda22, #f36161);
-  background-size: 200%;
-}
 
 .categoryItem:hover {
   width: 50%;
@@ -24222,10 +24215,7 @@ a.categoryButton:after {
   background: linear-gradient(to right, #099e74, #0ea4a4);
   background-size: 200%;
 }
-[data-theme="dark"] a.categoryButton.yellow {
-  background: linear-gradient(to right, #ffda22, #f36161);
-  background-size: 200%;
-}
+
 #topPostGroup .top-group-list-item {
   display: flex;
   width: calc(100% / 4 - 5px);
