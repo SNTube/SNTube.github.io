@@ -56,3 +56,13 @@ body {
   --scrollbar-color: var(--scrollbar-color-thumb, rgba(0, 0, 0, 0));
   --global-bg: var(--global-color-thumb, var(--anzhiyu-background));
 }
+
+/* nav栏浅色模式样式调整 */
+[data-theme="light"] #nav {
+  background: linear-gradient(to bottom, #4259ef5b, transparent);
+}
+
+[data-theme="light"] .s-sticker div {
+  color: #ffffff !important;
+  text-shadow: 0 0 3px #0000005b, 0 2px 3px #0000005b, 0 -2px 3px #0000005b;
+}
