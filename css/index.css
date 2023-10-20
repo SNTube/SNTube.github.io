@@ -19392,7 +19392,7 @@ p.p.gray {
   color: #e6eaed;
 }
 [data-theme='dark'] {
-  --global-bg: #f667e6;
+  --global-bg: #0d0d0d;
   --font-color: rgba(255,255,255,0.7);
   --hr-border: rgba(255,255,255,0.4);
   --hr-before-color: rgba(255,255,255,0.7);
@@ -19420,7 +19420,7 @@ p.p.gray {
   --blockquote-bg: #2c2c2c;
   --reward-pop: #2c2c2c;
   --toc-link-color: rgba(255,255,255,0.6);
-  --scrollbar-color: repeating-linear-gradient(45deg, #f771e8, #f7c6f2 5px, #21809c 5px, #21809c 10px, #f7c6f2 10px, #f771e8 15px);
+  --scrollbar-color: #1f1f1f;
   --timeline-bg: #1f1f1f;
 }
 [data-theme='dark'] #web_bg:before,
@@ -21377,7 +21377,7 @@ html.hide-aside .layout > div:first-child {
 }
 
 #aside-content .card-widget#card-wechat {
-  background: #18181c;
+  background: #57bd6a;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -21387,7 +21387,7 @@ html.hide-aside .layout > div:first-child {
   height: 110px;
 }
 [data-theme="dark"] #aside-content .card-widget#card-wechat {
-  background-color: #101014;
+  background-color: #121121;
   border: var(--style-border);
 }
 
@@ -23430,7 +23430,7 @@ i.bber-gotobb {
 #nav-music {
   display: flex;
   align-items: center;
-  z-index: 11;
+  z-index: 9;
   position: fixed;
   bottom: 20px;
   left: 20px;

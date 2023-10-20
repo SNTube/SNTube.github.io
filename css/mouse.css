@@ -94,3 +94,16 @@ a.categoryButton.yellow {
   background-size: 200%;
 }
 
+/* nav-music的层级问题 */
+#nav-music {
+  z-index: 11;
+}
+
+/* 公众号框底色修改 */
+#aside-content .card-widget#card-wechat {
+  background: #18181c;
+}
+
+[data-theme="dark"] #aside-content .card-widget#card-wechat {
+  background-color: #101014;
+}
