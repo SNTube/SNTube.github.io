@@ -122,7 +122,7 @@ a.categoryButton.yellow {
 }
 
 [data-theme="light"] #bgclockbg {
-  transform: perspective(1000px) translateX(429px) translateY(-145px) scale(0.75) rotateY(289deg);
+  z-index: -2;
 }
 
 #bgclock p {
