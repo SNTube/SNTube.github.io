@@ -85,9 +85,9 @@
       },
     dark: {
       smallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg',  // 深色模式小图
-      largeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 深色模式大图
+      largeSrc: 'https://bu.dusays.com/2023/10/24/65378c62b28fc.png', // 深色模式大图
       mobileSmallSrc: 'https://bu.dusays.com/2023/09/11/64ff0118b8400.jpg', // 手机端深色模式小图
-      mobileLargeSrc: 'https://bu.dusays.com/2023/09/10/64fd885385929.png', // 手机端深色模式大图
+      mobileLargeSrc: 'https://bu.dusays.com/2023/10/24/65378c62b28fc.png', // 手机端深色模式大图
       enableRoutes: ['/'],
       },
     };
