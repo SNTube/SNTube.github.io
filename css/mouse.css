@@ -121,6 +121,10 @@ a.categoryButton.yellow {
   transform: perspective(1000px) translateX(566px) translateY(-131px) scale(0.75) rotateY(27deg);
 }
 
+[data-theme="light"] #bgclockbg {
+  display: none;
+}
+
 #bgclock p {
   margin: 0;
   padding: 0;
@@ -128,7 +132,7 @@ a.categoryButton.yellow {
 
 #bgclock {
   /* background: url(https://bu.dusays.com/2023/10/24/65378dd577bf0.png); */
-  background-size: auto 100%; 
+  /* background-size: auto 100%; */
   font-family: 'Orbitron', monospace;  
   color: #c8c9c9;
   text-align: center;

@@ -38,7 +38,7 @@
       bgclock.id = 'bgclock';
       const bgdate = document.createElement('p');
       bgdate.classList.add('bgdate');
-      bgdate.textContent = '1698162263288';
+      bgdate.textContent = '1698163201357';
       const bgtime = document.createElement('p');
       bgtime.classList.add('bgtime');
       bgtime.textContent = '';
@@ -170,16 +170,13 @@
 
 })();
 
-// 时钟容器
-var bgclockEl = document.getElementById('bgclock');
-// 星期字符串数组
-var bgweek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-// 设置定时器
-var bgtimerID = setInterval(updatebgTime, 1000);
-// 初始化显示时间
-updatebgTime();
-
 function updatebgTime() {
+    // 时钟容器
+  var bgclockEl = document.getElementById('bgclock');
+  // 星期字符串数组
+  var bgweek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+  // 设置定时器
+  var bgtimerID = setInterval(updatebgTime, 1000);
   // 获取当前时间
   var bgcd = new Date();
   // 格式化时间
@@ -196,12 +193,14 @@ function updatebgTime() {
     <p class="bgdate">${bgdate}</p>
     <p class="bgtime">${bgtime}</p>
   `;
-}
-// 数字补0函数  
-function zeroPadding(num, digit) {
-  var zero = '';
-  for(var i = 0; i < digit; i++) {
-    zero += '0';
+  // 数字补0函数  
+  function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+      zero += '0';
+    }
+    return (zero + num).slice(-digit);
   }
-  return (zero + num).slice(-digit);
 }
+
+updatebgTime();
