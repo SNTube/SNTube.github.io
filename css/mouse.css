@@ -122,7 +122,7 @@ a.categoryButton.yellow {
 }
 
 [data-theme="light"] #bgclockbg {
-  display: none;
+  transform: perspective(1000px) translateX(429px) translateY(-145px) scale(0.75) rotateY(289deg);
 }
 
 #bgclock p {
@@ -141,6 +141,11 @@ a.categoryButton.yellow {
   top: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+[data-theme="light"] #bgclock {
+  color: #fff;
+  text-shadow: none;
 }
 
 #bgclock .bgtime {
