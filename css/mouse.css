@@ -143,11 +143,6 @@ a.categoryButton.yellow {
   text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
 }
 
-[data-theme="light"] #bgclock {
-  color: #fff;
-  text-shadow: none;
-}
-
 #bgclock .bgtime {
   letter-spacing: 0.05em;
   font-size: 80px; 
