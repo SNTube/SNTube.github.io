@@ -137,7 +137,7 @@
     <link href="https://satera.cn/posts/HelloWorld/"/>
     <id>https://satera.cn/posts/HelloWorld/</id>
     <published>2023-08-18T16:00:00.000Z</published>
-    <updated>2023-10-28T09:56:58.732Z</updated>
+    <updated>2023-10-28T10:00:56.949Z</updated>
     
     <content type="html"><![CDATA[<p>欢迎，我是小旦</p><p>这是我博客的第一篇文章</p><p>今天用Github Page搭建了一个基于Hexo的静态博客</p><p>比起之前在NAS用Docker搭建Halo，这边看起来好很多，就是还要学一些新知识</p><p>界面美化、页面修改这些，我看看怎么折腾</p><h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><ul><li>添加本地搜索</li><li>添加abbrlink</li><li>添加左下音乐</li><li>添加ArtStation Card</li><li>添加打赏二维码</li><li>添加羊驼</li><li>添加联系链接和头像和网站icon</li><li>添加swiper的技能图标</li><li>添加默认头图</li><li>添加并修改留言板</li><li>添加音乐馆并修改默认歌单，可切换歌单有了修改方案</li><li>添加相册集(未修改)</li><li>添加小空调并挪到nav</li><li>添加关于本人</li><li>添加即刻说说</li><li>添加RSS</li><li>添加百度主动推送、谷歌sitemap、百度sitemap</li><li>添加copyright、socialBar、bdageitem</li><li>弄了shields</li><li>添加了首页图和首页图模糊加载，解决一系列bug</li><li>添加了评论区背景图、邮箱通知和评论区欢迎词</li><li>音乐馆加入了一份可切换的播放列表</li><li>添加了人潮汹涌并修改默认高度</li><li>添加了分类页</li><li>添加了友链朋友圈，给管理界面重配了图</li><li>给menu排序、改图标</li><li>用我的装备改了一个作品页界面</li><li>换了钉钉进步体字体，压缩为woff2</li><li>友链界面用了青桔的条件勾选显示评论区</li><li>友链界面用了小植写的一个声明</li><li>魔改了张洪Heo的Twikoo评论回复邮件模板</li><li>更换了静态光标并做了主题适配</li><li>给即刻加上了HTML嵌入，并修改了鱼的B站嵌入样式</li><li>加入禁用F12开关，并加入F12跳转Particle Wave页(Codepen找点项目改的)</li><li>添加了评论区表情包(以后可能自己做一套)</li><li>修改了夜间阅读模式那一层灰蒙蒙和页脚的背景，并加上了渐变斜条纹</li><li>修改了滚动条同色问题，并加上了闲置隐藏滚动条</li><li>图标存本地css接替了鱼的css</li><li>ICP备案完，公网安备中</li><li>和AI一起做了一个更好用的徽标生成器</li><li>和AI一起做了一个基于石头渐进式首页图上的时钟，给它做了2K屏的100%和125%的适配</li><li>用腾讯云CDN加速</li><li>更改歌词大小和高亮显示当前歌词</li><li>更改了文章卡片、分类检索卡片、即刻通知的倒角</li><li>gulp压缩资源</li></ul>]]></content>
     
