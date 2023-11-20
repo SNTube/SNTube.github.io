@@ -201,7 +201,7 @@
       <link href="/css/font-family.css"/>
       <url>/css/font-family.css</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.6/fonts/DingTalk JinBuTi.woff2') format("woff2");    font-display: swap;}@font-face {    font-family: 'Orbitron';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.6/fonts/Orbitron-Clock.woff2') format("woff2");    font-display: block;}@font-face {    font-family: "Font Awesome 5 Free";    font-style: normal;    font-weight: 900;    src: url('/fonts/fontawesome.min.woff2') format("woff2");}]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.7/fonts/DingTalk JinBuTi.woff2') format("woff2");    font-display: swap;}@font-face {    font-family: 'Orbitron';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.7/fonts/Orbitron-Clock.woff2') format("woff2");    font-display: block;}@font-face {    font-family: "Font Awesome 5 Free";    font-style: normal;    font-weight: 900;    src: url('/fonts/fontawesome.min.woff2') format("woff2");}]]></content>
       
     </entry>
     
@@ -520,7 +520,7 @@
       <link href="/air-conditioner/index.html"/>
       <url>/air-conditioner/index.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.6/aircon/aircon.js'></script>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://cdn.jsdelivr.net/npm/sntube-blog-static@1.0.7/aircon/aircon.js'></script>]]></content>
       
     </entry>
     
