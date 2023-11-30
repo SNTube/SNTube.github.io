@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://satera.cn/update/index.html</loc>
+    
+    <lastmod>2023-11-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://satera.cn/album/index.html</loc>
     
     <lastmod>2023-11-30</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://satera.cn/album/JapanMemory/index.html</loc>
     
     <lastmod>2023-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://satera.cn/update/index.html</loc>
-    
-    <lastmod>2023-11-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -281,13 +281,6 @@
 
   
   <url>
-    <loc>https://satera.cn/tags/Tag-Plugins/</loc>
-    <lastmod>2023-11-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://satera.cn/tags/Hexo/</loc>
     <lastmod>2023-11-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -310,6 +303,13 @@
   
   <url>
     <loc>https://satera.cn/tags/Twikoo/</loc>
+    <lastmod>2023-11-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://satera.cn/tags/Tag-Plugins/</loc>
     <lastmod>2023-11-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
