@@ -439,17 +439,6 @@
     
     
     <entry>
-      <title>日常生活</title>
-      <link href="/album/dailyPhoto/index.html"/>
-      <url>/album/dailyPhoto/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>本站日志</title>
       <link href="/update/index.html"/>
       <url>/update/index.html</url>
@@ -483,9 +472,9 @@
     
     
     <entry>
-      <title>世界各地风景</title>
-      <link href="/album/wordScenery/index.html"/>
-      <url>/album/wordScenery/index.html</url>
+      <title>在日本那些年</title>
+      <link href="/album/JapanMemory/index.html"/>
+      <url>/album/JapanMemory/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
