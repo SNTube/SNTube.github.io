@@ -1,4 +1,69 @@
 {
+    "<img src=\"https://bu.dusays.com/2023/12/13/657957cb2f0d6.webp\" style=\"width: 30px;top: 4px;position: relative;\" title=\"Blue-Protocol\">": {
+        "type":"image",
+        "container": [
+            {
+                "text":"表情1",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957bfad012.webp'>"
+            },
+            {
+                "text":"表情2",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c07f569.webp'>"
+            },
+            {
+                "text":"表情3",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c15d66d.webp'>"
+            },
+            {
+                "text":"表情4",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c237348.webp'>"
+            },
+            {
+                "text":"表情5",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c300e13.webp'>"
+            },
+            {
+                "text":"表情6",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c3d0853.webp'>"
+            },
+            {
+                "text":"表情7",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c49a1b0.webp'>"
+            },
+            {
+                "text":"表情8",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c58f578.webp'>"
+            },
+            {
+                "text":"表情9",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c654cb5.webp'>"
+            },
+            {
+                "text":"表情10",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c728cda.webp'>"
+            },
+            {
+                "text":"表情11",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c7e0eed.webp'>"
+            },
+            {
+                "text":"表情12",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c898ff9.webp'>"
+            },
+            {
+                "text":"表情13",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957c9896ff.webp'>"
+            },
+            {
+                "text":"表情14",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957ca63317.webp'>"
+            },
+            {
+                "text":"表情15",
+                "icon":"<img src='https://bu.dusays.com/2023/12/13/657957cb2f0d6.webp'>"
+            }
+        ]
+    },
     "<img src=\"https://expression.qjqq.cn/1/650c5cd6a7fdf.webp\" style=\"width: 30px;top: 4px;position: relative;\" title=\"Heo\">": {
         "type": "image",
         "container": [
