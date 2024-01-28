@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://satera.cn/air-conditioner/index.html</loc>
+    
+    <lastmod>2024-01-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://satera.cn/json/music.json</loc>
     
     <lastmod>2023-12-15</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://satera.cn/posts/d50a/</loc>
-    
-    <lastmod>2023-11-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://satera.cn/air-conditioner/index.html</loc>
     
     <lastmod>2023-11-22</lastmod>
     
