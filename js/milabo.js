@@ -1,0 +1,1 @@
+function redirectToMyDomain(){var o="satera.cn",n=window.location.hostname;if(n!==o&&!n.endsWith("."+o)){var i="https://"+o+window.location.pathname+window.location.search+window.location.hash,a="当前为非授权镜像网站，为了安全起见，正在自动跳转源网站（"+i+"）";window.confirm(a)&&(window.location.href=i)}}window.onload=function(){redirectToMyDomain()};
