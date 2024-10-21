@@ -6,7 +6,7 @@
   <link href="https://satera.cn/atom.xml" rel="self"/>
   
   <link href="https://satera.cn/"/>
-  <updated>2023-11-13T03:54:33.813Z</updated>
+  <updated>2024-10-21T04:43:34.555Z</updated>
   <id>https://satera.cn/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>让anzhiyu的分页顶图兼容mp4视频</title>
+    <link href="https://satera.cn/posts/7dfab582/"/>
+    <id>https://satera.cn/posts/7dfab582/</id>
+    <published>2024-10-21T04:17:48.000Z</published>
+    <updated>2024-10-21T04:43:34.555Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>说明一切从简</li><li>本篇拿<code>essay界面</code>举例，自己举一反三</li></ul><h2 id="正篇"><a href="#正篇" class="headerlink" title="正篇"></a>正篇</h2><ol><li>首先找到“主题目录\anzhiyu\layout\includes\page\essay.pug”</li></ol><p>修改如下</p><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="deletion">-      .author-content.author-content-item.essayPage.single(style = i.top_background ? `background: url($&#123;i.top_background&#125;) left 28% / cover no-repeat;` : &quot;&quot;)</span></span><br><span class="line"><span class="addition">+      .author-content.author-content-item.essayPage.single(style = i.top_background &amp;&amp; !i.top_background.endsWith(&#x27;.mp4&#x27;) ? `background: url($&#123;i.top_background&#125;) left 28% / cover no-repeat;` : &quot;&quot;)</span></span><br><span class="line"><span class="addition">+        if i.top_background &amp;&amp; i.top_background.endsWith(&#x27;.mp4&#x27;)</span></span><br><span class="line"><span class="addition">+          video(autoplay loop muted playsinline style=&quot;pointer-events: none; object-fit: cover; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100% ; width: auto; height: auto ;position: absolute;&quot;)</span></span><br><span class="line"><span class="addition">+            source(src=url_for(i.top_background) type=&quot;video/mp4&quot;)</span></span><br></pre></td></tr></table></figure><ol start="2"><li>修改完毕，在eesay.yml的顶部配置项的top_background，现在也可以调用mp4视频了</li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"> - title: 即刻短文</span><br><span class="line"><span class="deletion">-  top_background: https://我原来是图片.png</span></span><br><span class="line"><span class="addition">+  top_background: https://现在这里可以是视频了.mp4</span></span><br></pre></td></tr></table></figure><ol start="3"><li>教程结束</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;说明一切从简&lt;/li&gt;
+&lt;li&gt;本篇拿&lt;code&gt;essay界面&lt;/code&gt;举例，自己举一反三&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 </summary>
+      
+    
+    
+    
+    <category term="分享" scheme="https://satera.cn/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="美化" scheme="https://satera.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo" scheme="https://satera.cn/tags/Hexo/"/>
+    
+    <category term="安知鱼主题" scheme="https://satera.cn/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>自定义加载动画魔改方案</title>
