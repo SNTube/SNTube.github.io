@@ -227,10 +227,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/imgloaded.css"/>
-      <url>/css/imgloaded.css</url>
+      <link href="/css/font-family.css"/>
+      <url>/css/font-family.css</url>
       
-        <content type="html"><![CDATA[/* 首页头图加载 */.pl-container {    width: 100%;    height: 100%;    position: relative;    overflow: hidden;    z-index: -2;    will-change: transform; /* 添加性能优化 */    animation: blur-to-clear 2s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;  }  .pl-img {    width: 100%;    height: 100%;    position: absolute;    background-position: center;    background-size: cover;    background-repeat: no-repeat;    opacity: 0;    transition: opacity 1s;  }    @keyframes blur-to-clear {    0% {      filter: blur(50px);      opacity: 1;    }    100% {      filter: blur(0);      opacity: 1;    }  }    @keyframes scale {    0% {      transform: scale(1.5) translateZ(0);      opacity: 0;    }    to {      transform: scale(1) translateZ(0);      opacity: 1;    }  }    .pl-visible {    opacity: 1;  }    .pl-blur {    /* 小图锯齿多，增加高斯模糊 */    filter: blur(50px);  }  /* 斜条纹阴影样式 */  .pl-video.pl-visible {    display: block  }  .pl-video {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 96%;    object-fit: cover;    z-index: 0;    opacity: 1;  /* 1(0)开启(关闭)斜条纹阴影 */    mix-blend-mode: multiply;    pointer-events: none; /* 斜条纹阴影不阻挡鼠标操作 */    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=);    /* 原本是background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=); */ }/* 当浅色模式时改一图流 */[data-theme="light"] .pl-container {  position: fixed;}]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.1.2/fonts/DingTalk JinBuTi.woff2') format("woff2");    font-display: swap;}@font-face {    font-family: 'Orbitron';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.1.2/fonts/Orbitron-Clock.woff2') format("woff2");    font-display: block;}@font-face {    font-family: "Font Awesome 5 Free";    font-style: normal;    font-weight: 900;    src: url('/fonts/fontawesome.min.woff2') format("woff2");}]]></content>
       
     </entry>
     
@@ -238,10 +238,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/font-family.css"/>
-      <url>/css/font-family.css</url>
+      <link href="/css/imgloaded.css"/>
+      <url>/css/imgloaded.css</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: 'DD-jingbuti';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.1.2/fonts/DingTalk JinBuTi.woff2') format("woff2");    font-display: swap;}@font-face {    font-family: 'Orbitron';    src: url('https://cdn.jsdelivr.net/npm/sntube-blog-static@1.1.2/fonts/Orbitron-Clock.woff2') format("woff2");    font-display: block;}@font-face {    font-family: "Font Awesome 5 Free";    font-style: normal;    font-weight: 900;    src: url('/fonts/fontawesome.min.woff2') format("woff2");}]]></content>
+        <content type="html"><![CDATA[/* 首页头图加载 */.pl-container {    width: 100%;    height: 100%;    position: relative;    overflow: hidden;    z-index: -2;    will-change: transform; /* 添加性能优化 */    animation: blur-to-clear 2s cubic-bezier(.62,.21,.25,1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62,.21,.25,1) 0s 1 both;  }  .pl-img {    width: 100%;    height: 100%;    position: absolute;    background-position: center;    background-size: cover;    background-repeat: no-repeat;    opacity: 0;    transition: opacity 1s;  }    @keyframes blur-to-clear {    0% {      filter: blur(50px);      opacity: 1;    }    100% {      filter: blur(0);      opacity: 1;    }  }    @keyframes scale {    0% {      transform: scale(1.5) translateZ(0);      opacity: 0;    }    to {      transform: scale(1) translateZ(0);      opacity: 1;    }  }    .pl-visible {    opacity: 1;  }    .pl-blur {    /* 小图锯齿多，增加高斯模糊 */    filter: blur(50px);  }  /* 斜条纹阴影样式 */  .pl-video.pl-visible {    display: block  }  .pl-video {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 96%;    object-fit: cover;    z-index: 0;    opacity: 1;  /* 1(0)开启(关闭)斜条纹阴影 */    mix-blend-mode: multiply;    pointer-events: none; /* 斜条纹阴影不阻挡鼠标操作 */    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=);    /* 原本是background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=); */ }/* 当浅色模式时改一图流 */[data-theme="light"] .pl-container {  position: fixed;}]]></content>
       
     </entry>
     
@@ -293,10 +293,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/refresh.js"/>
-      <url>/js/refresh.js</url>
+      <link href="/js/milabo.js"/>
+      <url>/js/milabo.js</url>
       
-        <content type="html"><![CDATA[function refreshCache() {    if (confirm('是否确定刷新博文缓存')) location.reload(true)}]]></content>
+        <content type="html"><![CDATA[const myDomain = 'satera.cn'; // 你的域名const allowedDomains = ['localhost', myDomain]; // 白名单const currentDomain = window.location.hostname;// 检查当前域名是否与你的域名不符，且不在允许的域名白名单中if (!allowedDomains.includes(currentDomain) && !currentDomain.endsWith('.' + myDomain)) {    const newUrl = 'https://' + myDomain + window.location.pathname + window.location.search + window.location.hash;    Snackbar.show({        text: decodeURI('当前为非授权镜像网站，为了安全起见，正在自动跳转源网站（' + newUrl + '）'),        pos: 'top-center',        actionText: '正在跳转',        duration: 5000,        onActionClick: () => window.location.href = newUrl    });    // 在5秒后自动跳转    setTimeout(() => window.location.href = newUrl, 5000);}]]></content>
       
     </entry>
     
@@ -304,10 +304,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/milabo.js"/>
-      <url>/js/milabo.js</url>
+      <link href="/js/refresh.js"/>
+      <url>/js/refresh.js</url>
       
-        <content type="html"><![CDATA[const myDomain = 'satera.cn'; // 你的域名const allowedDomains = ['localhost', myDomain]; // 白名单const currentDomain = window.location.hostname;// 检查当前域名是否与你的域名不符，且不在允许的域名白名单中if (!allowedDomains.includes(currentDomain) && !currentDomain.endsWith('.' + myDomain)) {    const newUrl = 'https://' + myDomain + window.location.pathname + window.location.search + window.location.hash;    Snackbar.show({        text: decodeURI('当前为非授权镜像网站，为了安全起见，正在自动跳转源网站（' + newUrl + '）'),        pos: 'top-center',        actionText: '正在跳转',        duration: 5000,        onActionClick: () => window.location.href = newUrl    });    // 在5秒后自动跳转    setTimeout(() => window.location.href = newUrl, 5000);}]]></content>
+        <content type="html"><![CDATA[function refreshCache() {    if (confirm('是否确定刷新博文缓存')) location.reload(true)}]]></content>
       
     </entry>
     
