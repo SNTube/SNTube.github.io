@@ -304,6 +304,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/milabo.js"/>
+      <url>/js/milabo.js</url>
+      
+        <content type="html"><![CDATA[const myDomain = 'satera.cn'; // 你的域名const allowedDomains = ['localhost', myDomain]; // 白名单const currentDomain = window.location.hostname;// 检查当前域名是否与你的域名不符，且不在允许的域名白名单中if (!allowedDomains.includes(currentDomain) && !currentDomain.endsWith('.' + myDomain)) {    const newUrl = 'https://' + myDomain + window.location.pathname + window.location.search + window.location.hash;    Snackbar.show({        text: decodeURI('当前为非授权镜像网站，为了安全起见，正在自动跳转源网站（' + newUrl + '）'),        pos: 'top-center',        actionText: '正在跳转',        duration: 5000,        onActionClick: () => window.location.href = newUrl    });    // 在5秒后自动跳转    setTimeout(() => window.location.href = newUrl, 5000);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/new_comment.js"/>
       <url>/js/new_comment.js</url>
       
@@ -326,10 +337,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/milabo.js"/>
-      <url>/js/milabo.js</url>
+      <link href="/js/refresh.js"/>
+      <url>/js/refresh.js</url>
       
-        <content type="html"><![CDATA[const myDomain = 'satera.cn'; // 你的域名const allowedDomains = ['localhost', myDomain]; // 白名单const currentDomain = window.location.hostname;// 检查当前域名是否与你的域名不符，且不在允许的域名白名单中if (!allowedDomains.includes(currentDomain) && !currentDomain.endsWith('.' + myDomain)) {    const newUrl = 'https://' + myDomain + window.location.pathname + window.location.search + window.location.hash;    Snackbar.show({        text: decodeURI('当前为非授权镜像网站，为了安全起见，正在自动跳转源网站（' + newUrl + '）'),        pos: 'top-center',        actionText: '正在跳转',        duration: 5000,        onActionClick: () => window.location.href = newUrl    });    // 在5秒后自动跳转    setTimeout(() => window.location.href = newUrl, 5000);}]]></content>
+        <content type="html"><![CDATA[function refreshCache() {    if (confirm('是否确定刷新博文缓存')) location.reload(true)}]]></content>
       
     </entry>
     
@@ -341,17 +352,6 @@
       <url>/js/scrolldisplay.js</url>
       
         <content type="html"><![CDATA[let scrollTimeout;window.addEventListener('DOMContentLoaded', () => {  hideScrollbar();});window.addEventListener('scroll', () => {  showScrollbar();  clearTimeout(scrollTimeout);  scrollTimeout = setTimeout(hideScrollbar, 1500);});function hideScrollbar() {  document.documentElement.style.setProperty('--scrollbar-color-thumb', 'rgba(0, 0, 0, 0)');  document.documentElement.style.setProperty('--global-color-thumb', 'var(--anzhiyu-background)');}function showScrollbar() {  document.documentElement.style.setProperty('--scrollbar-color-thumb', 'repeating-linear-gradient(45deg, #f771e8, #f7c6f2 5px, #21809c 5px, #21809c 10px, #f7c6f2 10px, #f771e8 15px)');  document.documentElement.style.setProperty('--global-color-thumb', '#f771e8');}  ]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/refresh.js"/>
-      <url>/js/refresh.js</url>
-      
-        <content type="html"><![CDATA[function refreshCache() {    if (confirm('是否确定刷新博文缓存')) location.reload(true)}]]></content>
       
     </entry>
     
